@@ -1,7 +1,4 @@
 ﻿  main.cpp
-c:\users\h3rme\documents\visual studio 2015\projects\teploprovod\teploprovod\main.cpp(34): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-c:\users\h3rme\documents\visual studio 2015\projects\teploprovod\teploprovod\main.cpp(34): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
-c:\users\h3rme\documents\visual studio 2015\projects\teploprovod\teploprovod\main.cpp(53): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-c:\users\h3rme\documents\visual studio 2015\projects\teploprovod\teploprovod\main.cpp(58): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\h3rme\documents\visual studio 2015\projects\teploprovod\teploprovod\main.cpp(56): warning C4018: <: несоответствие типов со знаком и без знака
   teploprovod.vcxproj -> C:\Users\h3rme\documents\visual studio 2015\Projects\teploprovod\Debug\teploprovod.exe
   teploprovod.vcxproj -> C:\Users\h3rme\documents\visual studio 2015\Projects\teploprovod\Debug\teploprovod.pdb (Full PDB)
