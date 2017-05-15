@@ -1,4 +1,13 @@
-﻿  main.cpp
-c:\users\h3rme\documents\visual studio 2015\projects\teploprovod\teploprovod\main.cpp(56): warning C4018: <: несоответствие типов со знаком и без знака
-  teploprovod.vcxproj -> C:\Users\h3rme\documents\visual studio 2015\Projects\teploprovod\Debug\teploprovod.exe
-  teploprovod.vcxproj -> C:\Users\h3rme\documents\visual studio 2015\Projects\teploprovod\Debug\teploprovod.pdb (Full PDB)
+﻿  OpenMp_r.cpp
+c:\users\h3rme\documents\visual studio 2015\projects\teploprovod\teploprovod\openmp_r.cpp(33): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+c:\users\h3rme\documents\visual studio 2015\projects\teploprovod\teploprovod\openmp_r.cpp(39): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  Компиляция...
+  main.cpp
+  Thread_r.cpp
+c:\users\h3rme\documents\visual studio 2015\projects\teploprovod\teploprovod\thread_r.cpp(35): warning C4018: <: несоответствие типов со знаком и без знака
+  Simple.cpp
+c:\users\h3rme\documents\visual studio 2015\projects\teploprovod\teploprovod\simple.cpp(32): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  teploprovod.vcxproj -> C:\Users\h3rme\Documents\Visual Studio 2015\Projects\teploprovod\Debug\teploprovod.exe
+  teploprovod.vcxproj -> C:\Users\h3rme\Documents\Visual Studio 2015\Projects\teploprovod\Debug\teploprovod.pdb (Partial PDB)
