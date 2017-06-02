@@ -32,14 +32,12 @@ int main()
 
 	//Неявная
 	clock_t start = clock();
-	//	std::thread th1(neyavn, time,tau,h,alfa,beta,T_arr);
-	//	th1.join();
-	//	yavn(time, h, T_arr);
 	//	neyavn_thread(time, tau, h, alfa, beta, T_arr);
 	//	yavn_thread(time, h, T_arr);
 	//	neyavn(time, tau, h, alfa, beta, T_arr);
 	yavn(time, h, T_arr);
 	//	neyavn_openMP(time, tau, h, alfa, beta, T_arr);
+	//	yavn_openMP(time, h, T_arr);
 	clock_t end = clock();
 	std::cout << "time is: " << (float)(end - start)/ CLOCKS_PER_SEC << std::endl;
 

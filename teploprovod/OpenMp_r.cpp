@@ -30,7 +30,7 @@ void neyavn_openMP(double time, double tau, double h, std::vector<double> alfa, 
 	double a_i, b_i, c_i, f_i;
 
 #pragma omp parallel
-	for (int j = time; j < t_final; j++)
+	for (double j = time; j < t_final; j++)
 	{
 		time += tau;
 		alfa[0] = 0;
