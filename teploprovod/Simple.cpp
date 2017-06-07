@@ -18,7 +18,7 @@ void yavn(double time, double h, std::vector<double> T_arr)
 			T_arr[i] = T_prev[i] + a*tau / pow(h, 2)*(T_prev[i + 1] - 2 * T_prev[i] + T_prev[i - 1]);
 		}
 	}
-	print_res(T_arr);
+	//print_res(T_arr);
 }
 
 void neyavn(double time, double tau, double h, std::vector<double> alfa, std::vector<double> beta, std::vector<double> T_arr)
@@ -42,6 +42,7 @@ void neyavn(double time, double tau, double h, std::vector<double> alfa, std::ve
 		for (int i = T_arr.size() - 2; i >= 0; i--)
 		{
 			T_arr[i] = alfa[i] * T_arr[i + 1] + beta[i];
+			printf("%d\n", T_arr[i]);
 		}
 	}
 	//	print_res(T_arr);

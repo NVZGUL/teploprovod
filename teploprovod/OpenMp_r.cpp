@@ -22,7 +22,7 @@ void yavn_openMP(double time, double h, std::vector<double> T_arr)
 			T_arr[i] = T_prev[i] + a*tau / pow(h, 2)*(T_prev[i + 1] - 2 * T_prev[i] + T_prev[i - 1]);
 		}
 	}
-	print_res(T_arr);
+	//print_res(T_arr);
 }
 
 void neyavn_openMP(double time, double tau, double h, std::vector<double> alfa, std::vector<double> beta, std::vector<double> T_arr)

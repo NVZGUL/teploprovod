@@ -1,3 +1,6 @@
 ﻿  main.cpp
+  Simple.cpp
+c:\users\h3rme\documents\visual studio 2015\projects\teploprovod\teploprovod\simple.cpp(45): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "double"
+  Создание кода...
   teploprovod.vcxproj -> C:\Users\h3rme\Documents\Visual Studio 2015\Projects\teploprovod\Debug\teploprovod.exe
   teploprovod.vcxproj -> C:\Users\h3rme\Documents\Visual Studio 2015\Projects\teploprovod\Debug\teploprovod.pdb (Partial PDB)
